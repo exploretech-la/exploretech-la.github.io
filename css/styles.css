@@ -1,0 +1,32 @@
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar-items {
+	display: inline-flex;
+	flex-direction: row;
+}
+
+.navbar .navbar-items .item:not(:first-child) {
+	margin-left: 16px;
+}
+
+.splash {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.splash #down-indicator {
+	position: absolute;
+	bottom: 3rem;
+	cursor: pointer;
+}
+
+.content {
+	margin: auto;
+	width: 80%;
+	max-width: 794px;
+}
